@@ -1,8 +1,8 @@
 <?php include("../../config/config.php"); ?>
 <?php include(DIRREQ."lib/html/header.php"); ?>
 
-<?php 
 
+<?php 
 $objEvents = new \Classes\ClassEvents();
 $events = $objEvents->getEventsById($_GET['id']);
 $date = new \DateTime($events['start']);
