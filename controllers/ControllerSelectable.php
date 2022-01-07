@@ -8,8 +8,8 @@ $end = new \DateTime($json->end);
 $objEvents->createEvent(
     0,
     $json->title,
-    '',
-    'red',
+    $json->description,
+    'blue',
     $start->format("Y-m-d H:i:s"),
     $end->modify("-1 day")->format("Y-m-d H:i:s")
 );

@@ -13,11 +13,58 @@ input {
     width: 350px;
 }
 
+.divManager{
+    text-align: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+.calendarManager{
+    background-color: #fff;
+    padding: 20px;
+}
+
 .form {
     position: relative;
     text-align: center;
     align-items: center;
 }
+
+.contas{
+    background-color: rgb(85, 142, 216);
+    position: relative;
+    text-align: center;
+    width: 600px;
+    height: 400px;
+    margin-left: 32%;
+    margin-top: 150px;
+    border: 5px solid rgb(5, 14, 66);
+    border-radius: 15px;
+}
+
+.contas h2 {
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 2%;
+}
+
+.botoes {
+    background-color: rgb(135, 167, 209);
+    width: 380px;
+    margin-left: 18%;
+    margin-top: 14%;
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.botoes a {
+    font-size: 25px;
+    color: #fff;
+}
+
+
 
 .voltar{
     color: black;
